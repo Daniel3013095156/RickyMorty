@@ -1,0 +1,22 @@
+/* App.css */
+.bg-space {
+  background-image: url("/public/Planteas\ .jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation: scrollBackground 30s linear infinite;
+}
+
+.bg-image {
+  background-image: url('/public/Planetas2.jpg');
+  background-size: cover;
+}
+
+@keyframes scrollBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
